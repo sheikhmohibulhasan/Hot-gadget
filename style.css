@@ -15,13 +15,12 @@
     padding: 9px 25px;
     cursor: pointer;
     width: 150px;
-    transition-timing-function: ease-in;
-    transition: width .7s, transform .7s;
+    transition-timing-function: ease-in-out;
+    transition: width .7s;
 }
 .buy-now-button:hover{
     width: 200px;
     background: rgb(77, 53, 53);
-    transform: translate(50px, 0px);
 }
 .heading-text h3{
     font-size: 50px;
@@ -34,10 +33,11 @@
 }
 .card{
     border-radius: 8px;
+    transition: transform, .5s;
+    transition-timing-function: ease-in-out;
 }
 .card:hover{
-    transform: scale(1.1);
-    transition: transform, .5s;
+    transform: scale(1.1);  
 }
 .categorie-bottom{
     width: 10%;
