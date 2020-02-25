@@ -1,9 +1,38 @@
+.background-image1{
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-position: left, bottom;
+    background-size: contain;
+}
+.background-image2{
+    background-image: url(images/best-product.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-position: left;
+    background-size: contain;
+}
+.background-image1 h1,p,button{
+    z-index: 1;
+}
 .container{
     margin-bottom: 50px;
 }
 .carousel-item{
     padding: 20px 40px ;
 }
+.carousel-indicators li:active{
+    width: 45px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: indigo;
+}
+.carousel-indicators li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
 .price{
     color: #FF136F;
 }
